@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <!-- /////////////////////////////////////////////////////////// wrapper -->
+    <div class="wrapper" id="{% if page.layout == 'post' %}{{ page.layout }}PAGE{% else %}{{ page.id }}PAGE{% endif %}">
+      {% include nav.html %}
+      <!-- ///////////////////////////////////////////////////////// content -->
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>

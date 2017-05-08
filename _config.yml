@@ -1,0 +1,11 @@
+# Site settings
+title: Motto.life
+email: global@moogmedia.ca
+description: Motto.Life
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "www.mottolife.github.io" # the base hostname & protocol for your site
+github_username:  mottolife
+permalink: /:title
+
+# Build settings
+markdown: kramdown
